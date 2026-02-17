@@ -44,6 +44,26 @@ nav {
     outline-offset: 3px;
 }
 
+/* Nav logo as text */
+.logo.logo-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    line-height: 1.2;
+    background: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.logo-brand {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #2185F7;
+}
+
 .logo-img {
     display: block;
     height: 40px;
@@ -632,9 +652,8 @@ footer {
         padding: var(--spacing-sm) 4%;
     }
 
-    .logo-img {
-        height: 38px;
-        width: 260px;
+    .logo-brand {
+        font-size: 1.35rem;
     }
 
     .nav-links {
@@ -671,9 +690,8 @@ footer {
         flex: 0 0 auto;
     }
 
-    .logo-img {
-        height: 34px;
-        width: 220px;
+    .logo-brand {
+        font-size: 1.2rem;
     }
 
     .nav-links {
@@ -751,9 +769,8 @@ footer {
         gap: var(--spacing-xs);
     }
 
-    .logo-img {
-        height: 30px;
-        width: 180px;
+    .logo-brand {
+        font-size: 1.05rem;
     }
 
     .nav-sidebar-panel {
